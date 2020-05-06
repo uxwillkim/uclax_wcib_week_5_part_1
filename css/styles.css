@@ -17,13 +17,28 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff; }
 
+.btn-primary,
+.btn-primary:hover,
+.btn-secondary:focus {
+  color: #266aa6;
+  text-shadow: none;
+  box-shadow: 2px 2px #92969c;
+  background-color: yellow;
+  border: .05rem solid black;
+  margin-bottom: 2rem; }
+
+button {
+  color: #266aa6;
+  background: yellow;
+  display: flow-root; }
+
 /*
  * Base structure
  */
 html,
 body {
   height: 100%;
-  background-color: #333; }
+  background-color: #266aa6; }
 
 body {
   display: -ms-flexbox;
@@ -72,11 +87,15 @@ body {
  * Cover
  */
 .cover {
-  padding: 0 1.5rem; }
+  padding: 0 1.5rem;
+  color: yellow; }
 
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700; }
+
+.lowOrHi {
+  font-size: 1.5rem; }
 
 /*
  * Footer
