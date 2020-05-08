@@ -30,7 +30,7 @@ a:hover {
 button {
   color: #266aa6;
   background: yellow;
-  display: flow-root; }
+  display: inline-block; }
 
 /*
  * Base structure
